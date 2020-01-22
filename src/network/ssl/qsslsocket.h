@@ -86,6 +86,7 @@ public:
     // Autostarting the SSL client handshake.
     void connectToHostEncrypted(const QString &hostName, quint16 port, OpenMode mode = ReadWrite, NetworkLayerProtocol protocol = AnyIPProtocol);
     void connectToHostEncrypted(const QString &hostName, quint16 port, const QString &sslPeerName, OpenMode mode = ReadWrite, NetworkLayerProtocol protocol = AnyIPProtocol);
+    void connectToHostEncrypted(const QString &hostName, const QString &hostFqdn, quint16 port, const QString &sslPeerName, OpenMode mode = ReadWrite, NetworkLayerProtocol protocol = AnyIPProtocol);
     bool setSocketDescriptor(qintptr socketDescriptor, SocketState state = ConnectedState,
                              OpenMode openMode = ReadWrite) override;
 

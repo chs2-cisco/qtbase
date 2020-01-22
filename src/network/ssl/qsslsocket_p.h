@@ -122,6 +122,7 @@ public:
     // if set, this hostname is used for certificate validation instead of the hostname
     // that was used for connecting to.
     QString verificationPeerName;
+    QString hostFqdn;
 
     bool allowRootCertOnDemandLoading;
 

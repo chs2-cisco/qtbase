@@ -506,6 +506,13 @@ void QSslSocket::connectToHostEncrypted(const QString &hostName, quint16 port,
     connectToHost(hostName, port, mode, protocol);
 }
 
+void QSslSocket::connectToHostEncrypted(const QString &hostName, const QString &hostFqdn, quint16 port, const QString &sslPeerName, OpenMode mode, NetworkLayerProtocol protocol)
+{
+	Q_D(QSslSocket);
+	d->hostFqdn = hostFqdn;
+	connectToHostEncrypted( hostName, port, sslPeerName, mode, protocol );
+}
+
 /*!
     Initializes QSslSocket with the native socket descriptor \a
     socketDescriptor. Returns \c true if \a socketDescriptor is accepted
