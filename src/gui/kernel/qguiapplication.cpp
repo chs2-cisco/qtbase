@@ -38,6 +38,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-21035: Add null check
+ *
+ * Add null check Virtual Screen Driver possibly causes
+ * Qt to lose screen.
+ *
+ * Apr 2, 2019, Henri Borodavkin (Cisco Systems, Inc.)
+*/
+
 #include "qguiapplication.h"
 
 #include "private/qguiapplication_p.h"

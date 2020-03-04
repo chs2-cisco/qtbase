@@ -37,6 +37,22 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-22321: More null checks
+ * Jul 19, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+ *
+ * BTUC-22321: Add null checks
+ * Jul 15, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+/*
+ * BTUC-21338: Support for services menu
+ *
+ * Send QInputMethodQueryEvent to get selected text from the object
+ * which belongs to window with active focus.
+ *
+ * Mar 21, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 // This file is included from qnsview.mm, and only used to organize the code
 
 @implementation QT_MANGLE_NAMESPACE(QNSView) (ComplexTextAPI)

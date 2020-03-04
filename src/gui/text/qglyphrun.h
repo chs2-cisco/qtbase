@@ -37,6 +37,13 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-15503: Spell check style implemented
+ * Added style support to font, glyph, format and layout
+ *
+ * 4-5-2017, Denis Rusakov (Cisco Systems, Inc.)
+*/
+
 #ifndef QGLYPHRUN_H
 #define QGLYPHRUN_H
 

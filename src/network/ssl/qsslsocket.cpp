@@ -38,6 +38,10 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-23073: Add API to provide FQDN for SNI
+ * Jan 22, 2020, Jani Tykkä (Cisco Systems, Inc.)
+*/
 
 //#define QSSLSOCKET_DEBUG
 

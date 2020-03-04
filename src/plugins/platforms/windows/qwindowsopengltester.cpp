@@ -37,6 +37,13 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-12115: added implicit GDI support flag for
+ * pixel format in case Qt uses GDI functions internally
+ *
+ * Aug 10, 2016, Denis Rusakov (Cisco Systems, Inc.)
+*/
+
 #include "qwindowsopengltester.h"
 #include "qwindowscontext.h"
 

@@ -37,6 +37,17 @@
 **
 ****************************************************************************/
 
+/*
+ *BTUC-19963: Support custom callback with loggers
+ *
+ * Add support to QTest framework for the using code to set a callback
+ * function to be called each time the test framework is about to log
+ * something. This enables the using code to redirect the logged string
+ * wherever it wants.
+ *
+ * Oct 4, 2018, Ilja Mäki (Cisco Systems, Inc.)
+*/
+
 #include <QtTest/qtestassert.h>
 
 #include <QtTest/private/qtestlog_p.h>

@@ -38,6 +38,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-13722: Make sure asserts are disabled
+ *
+ * QtWebEngine doesn't define QT_NO_DEBUG when it's
+ * configured by debug-and-release. Rely on NDEBUG.
+ *
+ * Jan 12, 2017, Jani Tykkä (Cisco Systems, Inc.)
+*/
+
 #ifndef QGLOBAL_H
 #define QGLOBAL_H
 

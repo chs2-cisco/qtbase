@@ -38,6 +38,16 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-18602: Update submenu menu items
+ *
+ * Submenu items are updated when menu items are added
+ * and removed by calling updateMenuBarImmediately()
+ * but not when items are made visible.
+ *
+ * Mar 9, 2018, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include "qcocoamenu.h"
 #include "qcocoansmenu.h"
 

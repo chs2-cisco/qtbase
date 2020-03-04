@@ -72,6 +72,11 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-18936: Fix for SystemTray menu
+ * Aug 23, 2018, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include "qcocoasystemtrayicon.h"
 
 #ifndef QT_NO_SYSTEMTRAYICON

@@ -37,6 +37,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-13697: Add support for disabling slide back of QDrag
+ *
+ * Slide back animation of drag image on OS X can now be disabled with
+ * QDrag.
+ *
+ * Nov 21, 2016, Juho Frits (Cisco Systems, Inc.)
+*/
+
 #include <qdrag.h>
 #include "private/qguiapplication_p.h"
 #include "qpa/qplatformintegration.h"

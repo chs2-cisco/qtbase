@@ -37,6 +37,11 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-13806 Remove check for accessibility to add mnemonics
+ * Nov 30, 2016, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include "qwindowsstyle_p.h"
 #include "qwindowsstyle_p_p.h"
 

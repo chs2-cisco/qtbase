@@ -36,6 +36,16 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
+
+/*
+ * BTUC-14734: Override ignore drop action in windows plugin
+ *
+ * Win API returns always ignore drop action for unknown windows.
+ * Override such action to show proper cursor icon.
+ *
+ * Mar 15, 2017, Denis Rusakov (Cisco Systems, Inc.)
+*/
+
 #include "qcocoaaccessibilityelement.h"
 #include "qcocoaaccessibility.h"
 #include "qcocoahelpers.h"

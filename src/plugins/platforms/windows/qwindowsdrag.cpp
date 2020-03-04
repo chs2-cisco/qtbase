@@ -37,6 +37,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-14734: Override ignore drop action in windows plugin
+ *
+ * Win API returns always ignore drop action for unknown windows.
+ * Override such action to show proper cursor icon.
+ *
+ * Mar 15, 2017, Denis Rusakov (Cisco Systems, Inc.)
+*/
+
 #include "qwindowsdrag.h"
 #include "qwindowscontext.h"
 #include "qwindowsscreen.h"

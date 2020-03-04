@@ -37,6 +37,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-17004: Save previous state
+ *
+ * Before initiating the authenticator, we need to save the previous
+ * state as the state changes to Start after initiation.
+ *
+ * Oct 12, 2017, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include "qhttpsocketengine_p.h"
 #include "qtcpsocket.h"
 #include "qhostaddress.h"

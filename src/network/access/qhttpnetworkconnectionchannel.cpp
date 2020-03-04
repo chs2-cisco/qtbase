@@ -38,6 +38,20 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-7221: close redundant connections
+ *
+ * In some cases network access manager opens new connections
+ * which are not used once open since another connection already
+ * sent the request which caused the new connection to be opened.
+ * These connections would cause some servers to send a 408
+ * response and a TCP FIN to close the connection after a timeout,
+ * instead of waiting the server to close the connection we'll
+ * close it if there is no request to be sent.
+ *
+ * Mar 31, 2016, Kimmo Karvinen (Cisco Systems, Inc.)
+*/
+
 #include "qhttpnetworkconnectionchannel_p.h"
 #include "qhttpnetworkconnection_p.h"
 #include "private/qnoncontiguousbytedevice_p.h"

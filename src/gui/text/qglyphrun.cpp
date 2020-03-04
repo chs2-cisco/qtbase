@@ -37,6 +37,13 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-15503: Spell check style implemented
+ * Added style support to font, glyph, format and layout
+ *
+ * May 4, 2017, Denis Rusakov (Cisco Systems, Inc.)
+*/
+
 #include "qglobal.h"
 
 #if !defined(QT_NO_RAWFONT)

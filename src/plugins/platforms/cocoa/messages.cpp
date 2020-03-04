@@ -37,6 +37,11 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-10807 Remove implicit Preferences menu role detection
+ * Mar 10, 2016, Jani Tykkä (Cisco Systems, Inc.)
+*/
+
 #include "messages.h"
 
 #include <QtCore/qcoreapplication.h>

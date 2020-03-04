@@ -36,6 +36,18 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
+
+/*
+ * BTUC-14542: Fix accessibility of tabs on macOS
+ *
+ * Tab bar and tab accessibility now behaves in a similar way as with
+ * native macOS applications. The role description attribute (usually
+ * "tab") needs to be given from user code as QAccessible::Description so
+ *  that it can be translated
+ *
+ * Feb 1, 2017, Juho Frits (Cisco Systems, Inc.)
+*/
+
 #include "qcocoaaccessibility.h"
 #include "qcocoaaccessibilityelement.h"
 #include <QtGui/qaccessible.h>

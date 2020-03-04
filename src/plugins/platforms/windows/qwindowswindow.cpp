@@ -37,6 +37,17 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-23181: Fix compilation error on Win
+ * Nov 12, 2019, Juho Frits (Cisco Systems, Inc.)
+*/
+/*
+ * BTUC-23181: Add null checks to prevent crash
+ * Check for current screen against null to prevent a crash.
+ *
+ * Nov 11, 2019, Juho Frits (Cisco Systems, Inc.)
+*/
+
 #if defined(WINVER) && WINVER < 0x0601
 #  undef WINVER
 #endif

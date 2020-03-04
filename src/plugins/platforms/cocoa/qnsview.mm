@@ -37,6 +37,15 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-21338: Support for services menu
+ *
+ * Send QInputMethodQueryEvent to get selected text from the object
+ * which belongs to window with active focus.
+ *
+ * Mar 21, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include <QtGui/qtguiglobal.h>
 
 #include "qnsview.h"

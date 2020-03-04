@@ -37,6 +37,11 @@
 **
 ****************************************************************************/
 
+/*
+ * BTUC-20969: Use utf auth encoding when specified
+ * Apr 01, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include <qauthenticator.h>
 #include <qauthenticator_p.h>
 #include <qdebug.h>

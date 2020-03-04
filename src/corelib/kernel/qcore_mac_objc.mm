@@ -38,6 +38,15 @@
 **
 ****************************************************************************/
 
+/*
+ * Revert "Track call sites of QMacAutoReleasePools for debugging pool usage"
+ *
+ * reverting this as the build fails with older XCode versions.
+ * This reverts commit 6c18f86af7affc60a571c65f0b335d7ee8947100.
+ *
+ * Mar 28, 2019, Aditya Kolachana (Cisco Systems, Inc.)
+*/
+
 #include <private/qcore_mac_p.h>
 
 #ifdef Q_OS_MACOS
